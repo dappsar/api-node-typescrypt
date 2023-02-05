@@ -17,7 +17,7 @@ const checkJwt = (req: RequestExt, res: Response, next: NextFunction) => {
   } catch (e) {
     console.log({ e })
     res.status(400)
-    res.send("SESSION_NO_VALIDAD")
+    res.send("SESSION_NO_VALIDA")
   }
 }
 
